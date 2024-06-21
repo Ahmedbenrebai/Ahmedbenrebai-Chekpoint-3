@@ -25,8 +25,7 @@
 ### Q.2.3.3
 ![Description de la photo](https://github.com/Ahmedbenrebai/Ahmedbenrebai-Chekpoint-3/blob/main/2.3.3.png)
 
-### Q.2.4.1
-### Q.2.4.1 Rôles des composants Bareos
+### Q.2.4.1 
 
 1. **bareos-dir**
    - **Rôle :** Gère et orchestre les sauvegardes et restaurations.
@@ -36,5 +35,19 @@
   
 3. **Daemon bareos-fd**
    - **Rôle :** S'exécute sur les machines à sauvegarder et envoie les données au Storage Daemon.
-   
+  
+ ### Q.2.5.1      
+![Description de la photo](https://github.com/Ahmedbenrebai/Ahmedbenrebai-Chekpoint-3/blob/main/2.5.1.png)
+
+ ### Q.2.5.2
+![Description de la photo](https://github.com/Ahmedbenrebai/Ahmedbenrebai-Chekpoint-3/blob/main/2.5.2.png)
+
+ ### Q.2.5.4
+ ![Description de la photo](https://github.com/Ahmedbenrebai/Ahmedbenrebai-Chekpoint-3/blob/main/2.5.4.png)
+     
+
+ ### Q.2.6.1
+  
+sudo grep "Failed password" /var/log/auth.log | tail -n 10 | awk '{print $1, $2, $3, $11, $13}'
+
 
